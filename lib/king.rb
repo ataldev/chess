@@ -1,5 +1,5 @@
 class King < Piece
-
+  include Stepable
   def to_s
     color == :black ? "♔" : "♚"
   end

@@ -1,3 +1,5 @@
+require_relative "./slideable.rb"
+require_relative "./stepable.rb"
 require_relative "./piece.rb"
 require_relative "./pawn.rb"
 require_relative "./rook.rb"

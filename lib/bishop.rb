@@ -1,6 +1,5 @@
-
 class Bishop < Piece
-
+  include Slideable
   def to_s
     color == :black ? "♗" : "♝"
 
