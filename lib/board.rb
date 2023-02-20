@@ -43,6 +43,11 @@ class Board
 
    def in_bounds?(location)
     row, column = location
-    row < grid.length && column < grid.first.length && row > 0 && column >= 0
+    row < grid.length && column < grid.first.length && row >= 0 && column >= 0
+   end
+   
+   def empty?(location)
+    row, column = location
+    grid[row][column].nil?
    end
  end
